@@ -23,8 +23,8 @@ def conv_str_to_vec(text):
     return Counter(words)
 
 
-sentence1 = str(input("First: "))
-sentence2 = str(input("Second: "))
+sentence1 = str(input("First: ")).lower()
+sentence2 = str(input("Second: ")).lower()
 
 
 vect1 = conv_str_to_vec(sentence1)
