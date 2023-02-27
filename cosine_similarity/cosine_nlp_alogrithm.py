@@ -23,13 +23,14 @@ def conv_str_to_vec(text):
     return Counter(words)
 
 
-sentence1 = str(input("First: ")).lower()
-sentence2 = str(input("Second: ")).lower()
+# sentence1 = "".lower()
+# sentence2 ="".lower()
 
 
-vect1 = conv_str_to_vec(sentence1)
-vect2 = conv_str_to_vec(sentence2)
 
-result = cosine(vect1, vect2)
+# vect1 = conv_str_to_vec(sentence1)
+# vect2 = conv_str_to_vec(sentence2)
 
-print("Cosine Similarity(words similar)", sentence1 , "and", sentence2, "is", result)
+# result = cosine(vect1, vect2)
+
+# print("Cosine Similarity(words similar)", sentence1 , "and", sentence2, "is", result)
